@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "id": "bd78",
+      "name": "savitha",
+      "age": 25,
+      "dob": "2025-06-25",
+      "subscribe": true,
+      "gender": "Female"
+    }
+  ],
+  "employees": []
+}

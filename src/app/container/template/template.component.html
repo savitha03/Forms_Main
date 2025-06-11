@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div>
+        <app-user-details
+          (actionEmitter)="detailsActionEmitter($event)"
+          [UserDetails]="UserDetails"
+          [isUpdate]="isUpdate"
+        ></app-user-details>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div>
+        <app-user-list
+          [userArray]="userArray"
+          [userLists]="userLists"
+          (actionEmitter)="listActionEmitter($event)"
+        ></app-user-list>
+      </div>
+    </div>
+  </div>
+</div>
